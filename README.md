@@ -111,18 +111,4 @@ jupyter notebook Infrabel_Data_Analysis.ipynb
 
 The repository includes several pre-generated visualizations (`*.png` and `*.html` files) to streamline the deployment of the Streamlit app. These visualizations include maps, charts, and figures illustrating the key insights from the analysis.
 
-## Next Steps
 
-- **Operational Adjustments**: Investigate the impact of scheduling adjustments for trains that are consistently late at departure to minimize cumulative delays.
-- **Infrastructure Maintenance**: Address infrastructure-related incidents that cause the most disruptive delays, and optimize maintenance schedules to reduce operational disruptions.
-- **Real-Time Dashboards**: Develop real-time dashboards for more effective management of train delays, incidents, and ETCS performance.
-- **Enhance Predictive Models**: Incorporate additional variables such as weather conditions, maintenance schedules, and crew shifts to improve the accuracy of delay predictions.
-- **Separate Primary and Secondary Delays**: Extend the data to differentiate primary delays from secondary delays caused by preceding trains.
-
-## Contact
-
-For any questions or feedback, feel free to open an issue or contact [your name](https://github.com/yourusername).
-
----
-
-This project was built as part of the Infrabel train delay analysis, with a focus on understanding the role of ETCS and improving operational efficiency.
