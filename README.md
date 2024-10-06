@@ -38,7 +38,7 @@ To get started with the project, you need to set up a Python virtual environment
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/Infrabel-Data-Analysis.git
+   git clone https://github.com/shreyab375/Infrabel-Data-Analysis.git
    cd Infrabel-Data-Analysis
    ```
 
