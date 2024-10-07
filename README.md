@@ -16,9 +16,7 @@ Infrabel-Data-Analysis/
 │
 ├── __pycache__/                # Python cache files
 ├── myvenv/                     # Virtual environment
-├── ETCS.csv                    # ETCS dataset
-├── Incidents.csv               # Incident dataset
-├── Regular data.csv            # Regular data (train delays) dataset
+├── Data                        # All required datasets
 ├── analysis.py                 # Python file for analysis functions
 ├── preprocess.py               # Python file for data preprocessing functions
 ├── visualization.py            # Python file for visualizations
@@ -26,8 +24,8 @@ Infrabel-Data-Analysis/
 ├── streamlit.py                # Streamlit app script
 ├── Infrabel_Data_Analysis.ipynb # Jupyter Notebook with analysis
 ├── requirements.txt            # Python dependencies
-├── *.png                       # Pre-generated visualizations (for Streamlit app)
-└── *.html                      # Pre-generated HTML maps for the Streamlit app
+├── Images/*.png                       # Pre-generated visualizations (for Streamlit app)
+    └── *.html                      # Pre-generated HTML maps for the Streamlit app
 ```
 
 ## Getting Started
