@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 #st.set_option('deprecation.showPyplotGlobalUse', False)
+st.set_page_config(layout="wide")
 import streamlit as st
 import streamlit.components.v1 as components
 # Import your preprocessing, analysis, and visualization functions
