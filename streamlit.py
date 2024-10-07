@@ -91,10 +91,10 @@ Even if there is no particular incident, Line 50A/3 faces regular delays, possib
 """)
 
 # Insert figure for incident impact
-st.image('Images\\Common_incidents.png', caption="Impact of Incidents on Delays")
+st.image('Images/Common_incidents.png', caption="Impact of Incidents on Delays")
 st.write("The most common incident to happen on the tracks in the **Intrusion into the tracks** followed by **Collision with a person**. Both of these incidents can be prevented using proper guard rails along the tracks.")
-st.image('Images\\top_10_lines.png', caption="Top 10 lines with Delay")
-st.image('Images\\heatmap.png', caption="Primary Types of Delay at Key Lines")
+st.image('Images/top_10_lines.png', caption="Top 10 lines with Delay")
+st.image('Images/heatmap.png', caption="Primary Types of Delay at Key Lines")
 st.write("""**Line 50A** is the most incident-prone, with significant delays due to a wide range of causes, especially electrical supply disruptions and intrusion in the tracks.
 **Line 36N** experiences frequent delays related to infrastructure works and intrusions, suggesting that maintenance and security improvements are needed.
 Weather conditions and freight train derailments emerge as notable factors on other lines, such as **Line 161** and **Line 124**, respectively.
@@ -109,7 +109,7 @@ Weather conditions and freight train derailments emerge as notable factors on ot
          
 **Prepare for weather-related disruptions** on Line 161, especially during winter months.
          """)
-st.image('Images\\50A3.png', caption="Location of 50A/3")
+st.image('Images/50A3.png', caption="Location of 50A/3")
 st.write("Even if there is no specific incident, **Line 50A/3** faces regular delays, likely due to its position as a crossroad of two major lines.")
 # 3. Role of ETCS on Line 50A/3
 st.header("3. Role of ETCS on Line 50A/3")
@@ -120,9 +120,9 @@ P-value: 0.6032).
 """)
 
 # Insert figure for ETCS role on Line 50A/3
-st.image('Images\\weighted_incidents.png', caption="Incidents weighted per line on ETCS levels")
-st.image('Images\\recovery.png', caption="Recovery levels on Non-ECTS vs ECTS levels")
-st.image('Images\\daily_delay.png', caption="Daily Delay per Line")
+st.image('Images/weighted_incidents.png', caption="Incidents weighted per line on ETCS levels")
+st.image('Images/recovery.png', caption="Recovery levels on Non-ECTS vs ECTS levels")
+st.image('Images/daily_delay.png', caption="Daily Delay per Line")
 st.write(" For this particular day’s data, there is no significant difference in the average departure delays between ETCS and non-ETCS lines. Both categories show similar delay patterns, suggesting that the presence of ETCS did not lead to a noticeable improvement in punctuality on this occasion confirmed by Statistical analysis. ")
 
 # 4. ETCS vs. Non-ETCS Lines Over 5 Years
@@ -133,7 +133,7 @@ In winter, **non-ETCS lines** experience much longer delays than ETCS lines.
 """)
 
 # Insert figure for ETCS vs. Non-ETCS over time
-st.image('Images\\over 5 years.png', caption="ETCS vs. Non-ETCS Lines Over 5 Years")
+st.image('Images/over 5 years.png', caption="ETCS vs. Non-ETCS Lines Over 5 Years")
 
 # 5. Length of Track vs. Delays
 st.header("5. Length of Track vs. Delays")
@@ -142,7 +142,7 @@ The **length of the track** does not seem to have any significant impact on dela
 """)
 
 # Insert figure for track length vs. delay
-st.image('Images\\correlation.png', caption="Track Length vs. Delay Timings")
+st.image('Images/correlation.png', caption="Track Length vs. Delay Timings")
 
 # 6. Delays from Departure to Arrival
 st.header("6. Delays from Departure to Arrival")
@@ -168,7 +168,7 @@ st.write("""
 """)
 
 # Insert figure for departure vs. arrival delays
-st.image('Images\\departure arrival.png', caption="Departure vs. Arrival Delay Patterns")
+st.image('Images/departure arrival.png', caption="Departure vs. Arrival Delay Patterns")
 
 # 7. Predictive Modeling for ETCS Impact
 st.header("7. Predictive Modeling for ETCS Impact")
@@ -178,7 +178,7 @@ This indicates that ETCS contributes significantly to the ability to forecast tr
 """)
 
 # Insert figure for predictive modeling
-st.image('Images\\feature_importance.png', caption="ETCS Impact on Delay Prediction")
+st.image('Images/feature_importance.png', caption="ETCS Impact on Delay Prediction")
 
 # Conclusion
 
@@ -208,4 +208,4 @@ st.write("""
 **IT Maintaince**: Even though intrusions are the most common cause of delay, infrastructure-related issues (e.g., track problems, maintenance requirements) cause the most disruptive delays. These often result in severe network-wide delays.
 Prioritize maintenance schedules for critical infrastructure that frequently causes delays. Analyzing data over time will allow you to predict when and where infrastructure maintenance is needed, helping to prevent future disruptions.
 """)
-st.image('Images\\disruptive incidents.png', caption="Most Disruptive Incidents")
+st.image('Images/disruptive incidents.png', caption="Most Disruptive Incidents")
