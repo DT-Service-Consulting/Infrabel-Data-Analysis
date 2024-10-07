@@ -174,7 +174,7 @@ st.image('Images/departure arrival.png', caption="Departure vs. Arrival Delay Pa
 # 7. Predictive Modeling for ETCS Impact
 st.header("7. Predictive Modeling for ETCS Impact")
 st.markdown("""
-Using predictive modeling, it was found that having ETCS has an **significant impact ** on predicting delay times. This means that having ETCS helps us better anticipate delays, aiding train operators in improving schedules and punctuality.
+Using predictive modeling, it was found that having ETCS has an **significant impact** on predicting delay times. This means that having ETCS helps us better anticipate delays, aiding train operators in improving schedules and punctuality.
 (Technical Justification:
 ETCS significantly impacts delay predictions, explaining 27% of the variance in delays (R-squared = 0.58). This indicates that while other factors affect delays, ETCS plays a crucial role in enhancing predictive accuracy.
 """)
