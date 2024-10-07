@@ -5,7 +5,7 @@ from streamlit_folium import st_folium
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
-st.set_option('deprecation.showPyplotGlobalUse', False)
+#st.set_option('deprecation.showPyplotGlobalUse', False)
 import streamlit as st
 import streamlit.components.v1 as components
 # Import your preprocessing, analysis, and visualization functions
@@ -94,7 +94,7 @@ Even if there is no particular incident, Line 50A/3 faces regular delays, possib
 st.image('Images\\Common_incidents.png', caption="Impact of Incidents on Delays")
 st.write("The most common incident to happen on the tracks in the **Intrusion into the tracks** followed by **Collision with a person**. Both of these incidents can be prevented using proper guard rails along the tracks.")
 st.image('Images\\top_10_lines.png', caption="Top 10 lines with Delay")
-st.image('Images\heatmap.png', caption="Primary Types of Delay at Key Lines")
+st.image('Images\\heatmap.png', caption="Primary Types of Delay at Key Lines")
 st.write("""**Line 50A** is the most incident-prone, with significant delays due to a wide range of causes, especially electrical supply disruptions and intrusion in the tracks.
 **Line 36N** experiences frequent delays related to infrastructure works and intrusions, suggesting that maintenance and security improvements are needed.
 Weather conditions and freight train derailments emerge as notable factors on other lines, such as **Line 161** and **Line 124**, respectively.
