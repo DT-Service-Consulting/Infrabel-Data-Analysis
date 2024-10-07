@@ -28,9 +28,9 @@ from analysis import *
 def main():
 #Preprocessing the data
 
-    df_reg = preprocess_reg_data('Regular data.csv')
-    df_inc = preprocess_inc_data('Incidents.csv')
-    df_et = preprocess_etcs_data('ETCS.csv')
+    df_reg = preprocess_reg_data('Data\Regular data.csv')
+    df_inc = preprocess_inc_data('Data\Incidents.csv')
+    df_et = preprocess_etcs_data('Data\ETCS.csv')
 
     #Exploratory Data Analysis
 
