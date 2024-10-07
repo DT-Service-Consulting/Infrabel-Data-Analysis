@@ -23,7 +23,7 @@ col1, col2 = st.columns([5, 1])  # Adjust the width ratio as needed
 with col1:
     st.write("## ETCS Map")
     # Read the HTML map file
-    with open('Images\\belgium_etcs_map (16).html', 'r', encoding='utf-8') as html_file:
+    with open('Images/belgium_etcs_map (16).html', 'r', encoding='utf-8') as html_file:
         html_content = html_file.read()
 
     # Display the HTML map using streamlit's components.html
