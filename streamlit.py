@@ -45,7 +45,7 @@ with col2:
     """)
 
 st.markdown("""
-This analysis delves into train delays, incident hotspots, and the **impact of ETCS (European Train Control System)** on the Belgian railway network, focusing on data from **October 1st, 2024**.
+This analysis gives a report on train delays, incident hotspots, and the **impact of ETCS (European Train Control System)** on the Belgian railway network, focusing on data from **October 1st, 2024**.
 
 ### Key Findings:
 
